@@ -2,8 +2,10 @@ EEPROM Unsigned Long read & write
 =================================
 
 I was looking for 2 things:
+
 1. to be able to simply store Unsigned Long in EEPROM without the complexity/heavyness of EEPROMWriteAnything.h
 2. to be able not to write in EEPROM if value was already stored in it
+
 So I wrote these 2 functions
     
 Use
