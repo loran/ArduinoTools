@@ -4,10 +4,10 @@
     Laurent Pantanacce
     
   Use:
-     readUnsignedLongFromEEPROM(byte EEPROM_address)
-         read Unsigned Long (4bytes) from EEPROM address EEPROM_address
-     writeUnsignedLongToEEPROM(unsigned long value, byte EEPROM_address)
-         write Unsigned Long (4bytes) to EEPROM address EEPROM_address
+    readUnsignedLongFromEEPROM(unsigned int EEPROM_address)
+      read Unsigned Long (4bytes) from EEPROM address EEPROM_address
+    writeUnsignedLongToEEPROM(unsigned int EEPROM_address, unsigned long value)
+      write Unsigned Long (4bytes) to EEPROM address EEPROM_address
 */
 
 #include <EEPROM.h>
